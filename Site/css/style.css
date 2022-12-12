@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    background-color: rgb(1, 11, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    width: 200px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li + li{
+    margin-left: 24px;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: red;
+}
+
+.anuncio {
+
+    height: 320px;
+    padding: 24px;
+
+
+    background-image: url(../images/banner4.png);
+    background-size: cover;
+    background-position: center 25%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dots {
+    margin-top: 24px;
+  display: flex;
+}
+
+.dots span {
+  display: block;
+  background-color: #1a1818;
+
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.dots span + span {
+  margin-left: 8px;
+}
+
+.dots .active {
+    background-color: #f13239;
+}
