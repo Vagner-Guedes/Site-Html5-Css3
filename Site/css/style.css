@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -111,3 +113,26 @@ header a:hover {
 .gallery p {
     font-weight: bold;
 }
+
+footer {
+    background-color: rgb(12, 12, 12);
+    color: hsl(0, 25%, 98%);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icon-container {
+    
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-container a {
+    margin: 10px;
+    color: rgb(241, 239, 239);
+  }
+  
+  .icon-container a:hover {
+    color: #666;
+  }
+  
